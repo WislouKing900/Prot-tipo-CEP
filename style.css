@@ -1,0 +1,80 @@
+<style>
+    /* Configuração global para zerar margens e usar uma fonte limpa */
+    * {
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Centraliza o container no meio da tela */
+    body {
+        background-color: #177c03; /* Fundo leve por fora do formulário */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    /* Estilização do container com fundo bege */
+    .container {
+        background-color: #f5f2eb; /* Tom de bege */
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 450px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Espaçamento para cada grupo de campo */
+    .container div {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #444;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    /* Inputs com border-radius de 3px */
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        background-color: #fff;
+    }
+
+    input:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    /* Botão de cadastro */
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+
+    button:hover {
+        background-color: #444;
+    }
+</style>
